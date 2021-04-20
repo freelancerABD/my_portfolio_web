@@ -1,0 +1,191 @@
+
+@media (max-width: 1199px){
+	.portfolio-popup .pp-prev{
+		left: 30px;
+	}
+	.portfolio-popup .pp-next{
+		right: 15px;
+	}
+}
+@media(max-width: 991px){
+	.portfolio-section .portfolio-item,
+	.services-section .services-item{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.portfolio-popup .pp-prev{
+		left: 20px;
+	}
+	.portfolio-popup .pp-next{
+		right: 0px;
+	}	
+}
+
+@media(max-width: 767px){
+	.home-section{
+		.home-text,.home-img{
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+		.home-text{
+			text-align: center;
+		}
+		.full-screen{
+			padding: 100px 0;
+		}
+		.home-img .img-box{
+			margin-bottom: 40px;
+			max-width: 350px;
+		}
+		.effect-3{
+			margin-left: -60px;
+		}
+		.effect-4{
+			left: 15%;
+		}
+		.effect-5{
+			right: 8%;
+		}
+	}
+	.about-section{
+		.skills .skill-item,
+		.about-info,.about-img{
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+		.about-img{
+			padding-bottom: 30px; 
+		}
+		.timeline {
+			.timeline-item:nth-child(odd) {
+			    padding-right: 30px;
+			    text-align: left;
+			    padding-left: 75px;
+			}
+			.timeline-item:nth-child(even) {
+		    	padding-left: 75px;
+		    	padding-right: 30px;
+			}
+			.timeline-item:nth-child(odd) .icon{
+				right: auto;
+				left: 5px;
+			}
+			.timeline-item:nth-child(even) .icon{
+				left: 5px;
+			}
+			.timeline-item{
+				margin-bottom: 40px;
+			}
+			.timeline-item:last-child{
+				margin-bottom: 0;
+			}
+			.timeline-item:nth-child(odd) .timeline-item-inner::before{
+				left: 44px;
+				right:auto;
+			}
+			.timeline-item:nth-child(even) .timeline-item-inner::before{
+				left: 44px;
+			}
+			.timeline-item-inner::before{
+				width: 16px;
+			}
+		}
+		.timeline:before{
+			left: 25px;
+		}
+
+	}
+	.services-section{
+		.services-item{
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+	}
+	.contact-section .w-50,
+	.contact-section .contact-item,
+	.portfolio-popup .description,
+	.portfolio-popup .info,
+	.portfolio-section .portfolio-item{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.portfolio-popup .info{
+		padding-top: 10px;
+	}
+	.portfolio-popup .pp-prev{
+		left: 10px;
+	}
+	.portfolio-popup .pp-next{
+		right: -10px;
+	}
+	.contact-section .contact-form .submit-btn{
+		text-align: center;
+	}
+}
+
+@media(max-width: 575px){
+	.home-section{
+		.order-sm-2{
+			order: 2;
+		}
+		.home-img .img-box{
+			max-width: 250px;
+		}
+		.home-text h2{
+			font-size: 40px;
+		}
+		.effect-4{
+			left: 10%;
+		}
+		.effect-5{
+			right: 3%;
+		}
+	}
+	.about-section {
+		.timeline .timeline-item-inner .icon{
+			width: 35px;
+			height: 35px;
+			line-height: 34px;
+			margin-top: 3px;
+		}
+		.timeline:before{
+			left: 35px;
+		}
+		.timeline .timeline-item:nth-child(odd) .icon{
+			right: auto;
+			left: 18px;
+		}
+		.timeline .timeline-item:nth-child(even) .icon{
+			left: 18px;
+		}
+		.timeline .timeline-item:nth-child(odd) {
+			padding-right: 40px;
+			text-align: left;
+			padding-left: 75px;
+		}
+		.timeline .timeline-item:nth-child(even) {
+		   	padding-left: 75px;
+		    padding-right: 40px;
+		}
+		.timeline .timeline-item:nth-child(odd) .timeline-item-inner::before{
+			left: 44px;
+			right:auto;
+		}
+		.timeline .timeline-item:nth-child(even) .timeline-item-inner::before{
+			left: 44px;
+		}
+	}	
+	.portfolio-popup .pp-prev{
+		left: 5px;
+	}
+	.portfolio-popup .pp-next{
+		right: -18px;
+	}
+}
+@media(max-width: 414px){
+	.about-section{
+		.about-img .img-box img{
+			height: 250px;
+		}
+	}
+}
